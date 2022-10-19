@@ -138,12 +138,6 @@ function Login() {
 
     return (
         <>
-            {/* <Snackbar open={open} autoHideDuration={6000} onClose={AlertClose}>
-          <Alert onClose={AlertClose} severity="error" sx={{ width: '100%' }}>
-            {errorMessage}
-          </Alert>
-        </Snackbar> */}
-
             <ThemeProvider theme={theme}>
                 <Container component="main" maxWidth="xs">
                     <CssBaseline />
